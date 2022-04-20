@@ -1,0 +1,40 @@
+.nav {
+  position: fixed;
+  top: 0;
+  background: var(--color-white);
+  width: 100vw;
+  height: 60px;
+  box-shadow: -6px 15px 10px -15px #111;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.right_nav {
+  width: 40%;
+  text-align: center;
+}
+.right_nav a {
+  color: var(--color-primary);
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.left_nav {
+  width: 60%;
+  text-align: center;
+}
+.left_nav ul {
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 177px;
+}
+.left_nav ul li {
+  width: 80px;
+  font-size: 14px;
+}
+.left_nav ul li a {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
